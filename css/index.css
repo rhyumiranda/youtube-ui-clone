@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
   color: inherit;
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
 body {
@@ -28,8 +28,12 @@ img {
   max-width: 100%;
 }
 
+.navbar {
+  position: fixed;
+}
+
 .p-0 {
-  padding: 0;
+  padding: 0.5rem;
 }
 
 .p-1 {
@@ -53,7 +57,7 @@ img {
 }
 
 .pl-0 {
-  padding-left: 0;
+  padding-left: 0.5rem;
 }
 
 .pl-1 {
@@ -77,7 +81,7 @@ img {
 }
 
 .pr-0 {
-  padding-right: 0;
+  padding-right: 0.5rem;
 }
 
 .pr-1 {
@@ -101,7 +105,7 @@ img {
 }
 
 .pt-0 {
-  padding-top: 0;
+  padding-top: 0.5rem;
 }
 
 .pt-1 {
@@ -125,7 +129,7 @@ img {
 }
 
 .pb-0 {
-  padding-bottom: 0;
+  padding-bottom: 0.5rem;
 }
 
 .pb-1 {
@@ -266,4 +270,123 @@ img {
 
 .mb-5 {
   margin-bottom: 1.5rem;
+}
+
+.font-xm {
+  font-size: 0.75rem;
+}
+
+.font-sm {
+  font-size: 0.875rem;
+}
+
+.font-md {
+  font-size: 1.5rem;
+}
+
+.font-lg {
+  font-size: 2rem;
+}
+
+.font-xl {
+  font-size: 3rem;
+}
+
+.clr-primary {
+  background-color: rgb(15, 15, 15);
+}
+
+.clr-secondary {
+  background-color: rgb(40, 40, 40);
+}
+
+.clr-tertiary {
+  background-color: rgb(61, 61, 61);
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.d-none {
+  display: none;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.jc-flex-start {
+  justify-content: flex-start;
+}
+
+.jc-flex-end {
+  justify-content: flex-end;
+}
+
+.jc-space-around {
+  justify-content: space-around;
+}
+
+.jc-space-between {
+  justify-content: space-between;
+}
+
+.fd-row {
+  flex-direction: row;
+}
+
+.fd-column {
+  flex-direction: column;
+}
+
+.fd-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.fd-column-reverse {
+  flex-direction: column-reverse;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.ai-flex-start {
+  align-items: flex-start;
+}
+
+.ai-flex-end {
+  align-items: flex-end;
+}
+
+.ai-space-around {
+  align-items: space-around;
+}
+
+.ai-space-between {
+  align-items: space-between;
+}
+
+.container {
+  width: 100%;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  flex-wrap: row wrap;
 }
