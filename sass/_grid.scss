@@ -1,0 +1,31 @@
+@use 'sass:math';
+
+$grid-column: 12;
+
+$grid-gaps: (
+  "0": 10px,
+  "1": 12px,
+  "2": 14px,
+  "3": 16px,
+  "4": 18px,
+);
+
+.container{
+  width: 100%;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+.row{
+  display: flex;
+  flex-wrap: row wrap;
+}
+
+@each $key, $val in $grid-gaps {
+  .gap-#{$key}{
+    gap: $val;
+  }
+};
+
+
+

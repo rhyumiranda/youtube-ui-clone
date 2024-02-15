@@ -1,0 +1,55 @@
+header{
+
+  margin-top: -12px;
+  div{
+    input{
+      margin-left: 5px;
+      width: 545px;
+      height: 40px;
+      border-top-left-radius: 22px;
+      border-bottom-left-radius: 22px;
+      border: .01px solid rgb(43, 43, 43);
+    }
+
+    input[type="text"]{
+      padding: 0 15px;
+      font-size: 16px;
+      background-color: rgb(18, 18, 18);
+      color: white;
+      outline: none;
+      font-weight: 300;
+      font-family: 'Roboto', sans-serif, Verdana;
+    }
+
+    .logo{
+      width: 120px;
+      cursor: pointer;
+    }
+
+    .search-icn{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $secondary-color;
+      height: 43px;
+      width: 100%;
+      max-width: 62px;
+
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+      cursor: pointer;
+    }
+
+    .mic-icn{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $secondary-color;
+      height: 40px;
+      width: 44px;
+      border-radius: 20px;
+      size: 14px;
+      cursor: pointer;
+    }
+  }
+}
