@@ -4,12 +4,15 @@
 
 // Base and Layout
 @import 'base';
+@import 'breakpoints';
 
 // Colors
 
 
 // Components
 @import 'components/navbar';
+@import 'components/categories';
+@import 'components/aside';
 
 // Utilities Margin, Padding, Opacity
 @import 'utilities';
