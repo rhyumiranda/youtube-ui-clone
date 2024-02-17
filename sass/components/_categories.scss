@@ -25,6 +25,10 @@
   .category:first-child{
     background-color: white;
     color: black;
+
+    &:hover{
+      background-color: white;
+    }
   }
 
   .category:hover{
@@ -32,6 +36,6 @@
   }
 
   svg{
-    margin-left: 20px;
+    margin-left: 40px;
   }
 }

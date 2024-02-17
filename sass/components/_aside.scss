@@ -1,9 +1,11 @@
 aside{
   position: absolute;
   float: left;
-  height: 100%;
+  height: auto;
   width: 65px;
   padding: 0 4px;
+  background-color: $primary-color;
+  cursor: pointer;
 
   .home, .shorts, .subscriptions, .you{
     p{
@@ -13,5 +15,11 @@ aside{
       padding: 4px 0;
       font-family: 'Roboto', sans-serif, Verdana;
     }
+  }
+
+  .home:hover, .shorts:hover, .subscriptions:hover, .you:hover{
+    width: 100%;
+    border-radius: 15px;
+    background-color: $tertiary-color;
   }
 }

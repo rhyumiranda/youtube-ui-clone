@@ -1,0 +1,89 @@
+.videos-section{
+  position: relative;
+  // background-color: pink;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-width: 1000px;
+  width: 92%;
+  height: auto;
+  top: 0;
+  left: 95px;
+  cursor: pointer;
+
+  .row-one{
+    gap: 15px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+}
+
+.video{
+  margin-top: 20px;
+  
+  .video-title{
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif, Verdana;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 10px;
+  }
+
+  .username{
+    font-size: 0.875rem;
+    font-family: 'Roboto', sans-serif, Verdana;
+    color: #AAAAAA;
+    font-weight: 500;
+  }
+
+  .video-engagement{
+    span{
+      font-size: 0.875rem;
+      font-family: 'Roboto', sans-serif, Verdana;
+      color: #AAAAAA;
+      font-weight: 500;
+    }
+  }
+  
+  .thumbnail{
+    background-image: url(/assets/thumbnails/thumbnail.jpeg);
+    background-size: cover;
+    background-color: gray;
+    border-radius: 10px;
+    width: 320px;
+    height: 190px;
+  }
+
+  .creator-one{
+    width: 36px;
+    height: 36px;
+    border-radius: 20px;
+    background-image: url("/assets/pfp/pfp-1.jpeg");
+    background-size: cover;
+  }
+
+  .creator-two{
+    width: 36px;
+    height: 36px;
+    border-radius: 20px;
+    background-image: url("/assets/pfp/pfp-2.jpeg");
+    background-size: cover;
+  }
+
+  .creator-three{
+    width: 36px;
+    height: 36px;
+    border-radius: 20px;
+    background-image: url("/assets/pfp/pfp-3.jpeg");
+    background-size: cover;
+  }
+
+  .creator-four{
+    width: 36px;
+    height: 36px;
+    border-radius: 20px;
+    background-image: url("/assets/pfp/pfp-4.jpeg");
+    background-size: cover;
+  }
+
+}
